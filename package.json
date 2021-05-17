@@ -1,0 +1,19 @@
+{
+    "name": "rest_api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node-dev --no-notify server/server.js",
+        "test": "jest --env node"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "jest": "^26.6.3",
+        "pg-promise": "^10.10.2"
+    },
+    "devDependencies": {
+        "node-dev": "^7.0.0"
+    }
+}
